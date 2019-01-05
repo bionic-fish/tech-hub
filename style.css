@@ -94,8 +94,8 @@ section {
     text-align: center;
     font-size: 22px;
     text-decoration: underline;
-    color: #333;
-    text-shadow: 1px 3px rgb(37, 93, 167);
+    color: #fff;
+    /* text-shadow: 1px 3px rgb(37, 93, 167); */
 }
 /* Services Section */
 .flexbox {
