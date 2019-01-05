@@ -164,6 +164,8 @@ h5 {
 #boxServi {background-image: url("images/_serviBUS.jpg");}
 #boxCust {background-image: url("images/_custBUS.jpg");}
 #boxWhatwe {background-image: url("images/_whatweBUS.jpg");}
+
+/* google maps area */
 #maps {
     height: 50vh;
     width: 100%;
