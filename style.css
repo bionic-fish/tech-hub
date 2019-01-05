@@ -1,7 +1,7 @@
 /* CSS Overview
     Font Families
         font-family: 'Karla', sans-serif;
-        
+
     ColorScheme
         Primary: #333;
         Secondary: */
@@ -14,7 +14,7 @@ body {
     height: 100%;
     font-family: 'Karla', sans-serif;
 
-   
+
 }
 /* Global Containers + Wrappers */
 /* .Box for responsive image placement throughout page */
@@ -67,7 +67,7 @@ section {
     color: #fff;
     border: 1px solid;
     border-radius: 10px;
-    
+
 }
 .quicklinks a:hover {
     background: #fff;
@@ -75,7 +75,7 @@ section {
     text-decoration: underline;
     color: #333;
     font-weight: bolder;
-    
+
 }
 /* Banner Properties */
 .banner {
@@ -84,8 +84,8 @@ section {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    
-    
+
+
     clear: both;
     height: 50vh;
     display: flex;
@@ -159,11 +159,11 @@ h5 {
 }
 /* images inserted via .box ID */
 #boxAbout {background-image: url("images/_aboutBUS.jpg");}
-#boxProds {background-image: url("images/_prodsBUS.JPG");}
-#boxCont {background-image: url("images/_contactBUS.JPG");}
-#boxServi {background-image: url("images/_serviBUS.JPG");}
-#boxCust {background-image: url("images/_custBUS.JPG");}
-#boxWhatwe {background-image: url("images/_whatweBUS.JPG");}
+#boxProds {background-image: url("images/_prodsBUS.jpg");}
+#boxCont {background-image: url("images/_contactBUS.jpg");}
+#boxServi {background-image: url("images/_serviBUS.jpg");}
+#boxCust {background-image: url("images/_custBUS.jpg");}
+#boxWhatwe {background-image: url("images/_whatweBUS.jpg");}
 #maps {
     height: 50vh;
     width: 100%;
@@ -180,7 +180,7 @@ h5 {
     }
     .flex {
         display: flex;
-        
+
     }
     .flexbox {
         margin: auto;
@@ -204,7 +204,7 @@ h5 {
         float: left;
         font-size: 20px;
         /* padding: 10px; */
-        
+
     }
     .right {
         float: right;
