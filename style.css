@@ -158,12 +158,12 @@ h5 {
 
 }
 /* images inserted via .box ID */
-#boxAbout {background-image: url("images/_aboutBUS.JPG");}
-#boxProds {background-image: url("images/_prodsBUS.jpg");}
-#boxCont {background-image: url("images/_contactBUS.jpg");}
-#boxServi {background-image: url("images/_serviBUS.jpg");}
-#boxCust {background-image: url("images/_custBUS.jpg");}
-#boxWhatwe {background-image: url("images/_whatweBUS.jpg");}
+#boxAbout {background-image: url("images/aboutBUS.JPG");}
+#boxProds {background-image: url("images/prodsBUS.jpg");}
+#boxCont {background-image: url("images/contactBUS.jpg");}
+#boxServi {background-image: url("images/serviBUS.jpg");}
+#boxCust {background-image: url("images/custBUS.jpg");}
+#boxWhatwe {background-image: url("images/whatweBUS.jpg");}
 
 /* google maps area */
 #maps {
