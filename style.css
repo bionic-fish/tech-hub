@@ -1,0 +1,212 @@
+/* CSS Overview
+    Font Families
+        font-family: 'Karla', sans-serif;
+        
+    ColorScheme
+        Primary: #333;
+        Secondary: */
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    box-sizing: border-box;
+    height: 100%;
+    font-family: 'Karla', sans-serif;
+
+   
+}
+/* Global Containers + Wrappers */
+/* .Box for responsive image placement throughout page */
+.box {
+    height: 300px;
+    width: 100%;
+    /* background-color: aquamarine; */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* .Container for consistant layout through sections */
+.container {
+    padding: 20px;
+    margin: auto;
+}
+.header,
+.footer {
+    background-color: #333;
+    color:white;
+    text-align: center;
+    padding: 10px;
+
+}
+section {
+    background-color: #fff;
+    text-align: center;
+}
+/* navigation links */
+/* top navigation [.right] */
+.right a {
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+.right .active {
+    color: rgb(37, 93, 167);
+    font-size: 20px;
+    text-decoration: underline;
+}
+/* bottom navigation [quicklinks] */
+.quicklinks {
+    background-color: #333;
+    text-align: center;
+    padding: 20px;
+}
+.quicklinks a {
+    padding: 20px;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid;
+    border-radius: 10px;
+    
+}
+.quicklinks a:hover {
+    background: #fff;
+    padding: 20px;
+    text-decoration: underline;
+    color: #333;
+    font-weight: bolder;
+    
+}
+/* Banner Properties */
+.banner {
+    background-color: #333;
+    background-image: url("images/techBanner.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+    clear: both;
+    height: 50vh;
+    display: flex;
+}
+.banner-elements {
+    text-align: center;
+    font-size: 22px;
+    text-decoration: underline;
+    color: #333;
+    text-shadow: 1px 3px rgb(37, 93, 167);
+}
+/* Services Section */
+.flexbox {
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid #333;
+}
+/* Customer Review Section
+    Components
+    [div.tickets],
+    [div.ticket-elmnts]
+ */
+ .tickets {
+    background-color: #333;
+     border: 2px solid #fff;
+     border-radius: 10px;
+     padding: 12px 10px;
+
+     color: #fff;
+     /* width: auto; */
+     margin: auto;
+ }
+
+
+/* bottom eqnuire link */
+.enquireLnk  {
+    border: 2px solid rgb(37, 93, 167);
+    border-radius: 10px;
+    color: rgb(37, 93, 167);
+    padding: 18px;
+    margin: 5px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.enquireLnk:hover  {
+    background: rgb(37, 93, 167);
+    border: 2px solid rgb(37, 93, 167);
+    border-radius: 10px;
+    color: #fff;
+    padding: 18px;
+    margin: 5px;
+    font-size: 20px;
+    text-decoration: none;
+}
+/* font awesome icons */
+.fas,
+.far {
+    height: 30px;
+    color: rgb(37, 93, 167);
+    padding: 20px;
+    font-size: 40px;
+}
+/* section headings */
+section h2,
+section h3,
+section h4,
+h5 {
+    color: rgb(37, 93, 167);
+    text-decoration: underline;
+
+}
+/* images inserted via .box ID */
+#boxAbout {background-image: url("images/_aboutBUS.JPG");}
+#boxProds {background-image: url("images/_prodsBUS.JPG");}
+#boxCont {background-image: url("images/_contactBUS.JPG");}
+#boxServi {background-image: url("images/_serviBUS.JPG");}
+#boxCust {background-image: url("images/_custBUS.JPG");}
+#boxWhatwe {background-image: url("images/_whatweBUS.JPG");}
+#maps {
+    height: 50vh;
+    width: 100%;
+}
+
+/* media query for desktop */
+@media screen and (min-width: 960px) {
+    .box {
+        height: 450px;
+        /* max-height: 500px; */
+        width: 600px;
+        margin: auto;
+        /* background-attachment: fixed; */
+    }
+    .flex {
+        display: flex;
+        
+    }
+    .flexbox {
+        margin: auto;
+        padding: 40px;
+        border: 2px solid #333;
+        min-height: 200px;
+        width: 33.3%;
+        /* display: flex; */
+    }
+    .flexbox-content {
+        margin: auto;
+    }
+    .quicklinks a {
+        margin: auto;
+    }
+    .tickets {
+        max-width: 50%;
+    }
+    /* header span elements */
+    .left {
+        float: left;
+        font-size: 20px;
+        /* padding: 10px; */
+        
+    }
+    .right {
+        float: right;
+    }
+}
