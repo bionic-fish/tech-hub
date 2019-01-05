@@ -158,7 +158,7 @@ h5 {
 
 }
 /* images inserted via .box ID */
-#boxAbout {background-image: url("images/_aboutBUS.JPG");}
+#boxAbout {background-image: url("images/_aboutBUS.jpg");}
 #boxProds {background-image: url("images/_prodsBUS.JPG");}
 #boxCont {background-image: url("images/_contactBUS.JPG");}
 #boxServi {background-image: url("images/_serviBUS.JPG");}
